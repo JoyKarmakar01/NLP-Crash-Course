@@ -1,0 +1,18 @@
+Assignment: Language Model using the Reuters Dataset
+In the last project, we built the next word recommender system using the TaskMaster Dialogue dataset. We created unigrams, bigrams, and trigrams from the dataset and then built the trigram language model to predict the next word.
+
+Now, in this assignment, we provide you with another interesting dataset. This time, you have to build a similar next word recommender system using the Reuters dataset. Here is a brief about the dataset:
+
+It contains documents belonging to 90 different categories
+There are a total of 7769 training documents
+And these documents contain 54716 sentences.
+We provide you with a sample of this dataset which contains the first 10000 sentences. Here is the description of the dataset:
+
+File name: sample_reuters_dataset.csv (Click here to download sample_reuters_dataset.csv)
+First column represents the sentence number
+Second column contains the text
+Using this dataset, your task is to build the next word recommender model. Here is the list of tasks that you should perform:
+
+Create the vocabulary of the dataset
+Create unigrams, bigrams, and trigrams
+Build a trigram language model that predicts the probabilities of the next possible words given a set of two input words.
